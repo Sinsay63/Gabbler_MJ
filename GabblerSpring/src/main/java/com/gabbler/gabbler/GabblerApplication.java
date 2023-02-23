@@ -8,6 +8,7 @@ public class GabblerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(GabblerApplication.class, args);
+        System.out.println("salut les potes");
     }
 
 }
