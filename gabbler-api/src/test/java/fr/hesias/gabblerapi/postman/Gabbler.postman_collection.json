@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "824cb17b-6668-40a8-8e77-e8fb8a8c601c",
+		"name": "Gabbler",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18622722"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"username\": \"Matou\",\r\n        \"firstname\": \"Mathilde\",\r\n        \"lastname\": \"Brt\",\r\n        \"birthday\": \"2001-05-27T22:00:00.000+00:00\",\r\n        \"email\": \"yanis.houdier@gmail.com\",\r\n        \"password\": \"password\",\r\n        \"biography\": \"Je suis une femme morte\",\r\n        \"creationDate\": \"2023-03-01T21:15:28.000+00:00\",\r\n        \"pathAvatar\": \"\",\r\n        \"validated\": false\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/users/delete/5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/users/delete/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"delete",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/users/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"username\": \"Sinsay\",\r\n        \"firstname\": \"Yanis\",\r\n        \"lastname\": \"HOUDIER\",\r\n        \"birthday\": \"2001-07-27T22:00:00.000+00:00\",\r\n        \"email\": \"yanis.houdier@gmail.com\",\r\n        \"password\": \"password\",\r\n        \"biography\": \"Je suis un homme tout a fait comblé\",\r\n        \"creationDate\": \"2023-03-01T19:53:28.000+00:00\",\r\n        \"pathAvatar\": \"\",\r\n        \"validated\": false\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
