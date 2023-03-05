@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>fr.hesias</groupId>
-    <artifactId>gabbler-app</artifactId>
+    <artifactId>gabbler-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gabbler-app</name>
+    <name>gabbler-api</name>
     <description>Major project Gabbler</description>
     <properties>
         <java.version>19</java.version>

@@ -1,10 +1,10 @@
-package com.gabbler.gabbler;
+package fr.hesias.gabblerapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GabblerApplicationTests {
+class GabblerApiApplicationTests {
 
     @Test
     void contextLoads() {
