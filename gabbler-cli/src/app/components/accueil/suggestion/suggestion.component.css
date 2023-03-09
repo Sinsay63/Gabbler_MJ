@@ -14,6 +14,6 @@ input{
     margin: 10px 0px 10px 0px;
 }
 .column3{
-    width: 100%;
-    border-right: solid 2px black;
+    width: 500px;
+    height: 100%;
 }

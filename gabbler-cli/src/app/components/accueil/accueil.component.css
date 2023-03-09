@@ -1,15 +1,6 @@
-.bck-container{
-    height: 100% ;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
 .main-container{
-    height: 92% ;
-    width:92%;
-    background-color: rgb(242, 235, 235);
+    height: 100% ;
+    width:100%;
     display:flex;
     flex-direction: row;
-    border-radius: 10px;
-    border: solid 2px black;
 }

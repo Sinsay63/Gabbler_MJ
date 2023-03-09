@@ -1,5 +1,6 @@
 .column1{
-    width: 100%;
+    width: 500px;
+    height: 100%;
     border-right: solid 2px black;
 }
 .container-logo{
