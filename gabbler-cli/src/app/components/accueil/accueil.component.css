@@ -74,6 +74,9 @@
     padding-right: 7px ;
     font-size: 40px;
 }
+.separateur{
+    border:solid 1px gray;
+}
 .box-connection{
     padding: 10px 0px 10px 0px;
     width: 80%;
@@ -88,4 +91,14 @@ form{
 }
 input{
     margin: 10px 0px 10px 0px;
+}
+
+.searchbox{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border:solid 1px gray;
+}
+.searchbutton{
+    background-image: url("");
 }
