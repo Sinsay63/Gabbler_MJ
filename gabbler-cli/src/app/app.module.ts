@@ -7,13 +7,19 @@ import { AppComponent } from './app.component';
 import { AccueilComponent } from './components/accueil/accueil.component';
 import { ConnexionComponent } from './components/connexion/connexion.component';
 import { EnregistrerComponent } from './components/enregistrer/enregistrer.component';
+import { SideMenuComponent } from './components/accueil/side-menu/side-menu.component';
+import { MainContentComponent } from './components/accueil/main-content/main-content.component';
+import { SuggestionComponent } from './components/accueil/suggestion/suggestion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccueilComponent,
     ConnexionComponent,
-    EnregistrerComponent
+    EnregistrerComponent,
+    SideMenuComponent,
+    MainContentComponent,
+    SuggestionComponent
   ],
   imports: [
     BrowserModule,
