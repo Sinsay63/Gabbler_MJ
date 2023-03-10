@@ -1,5 +1,7 @@
+:host{
+    width: 25%;
+}
 .column1{
-    width: 500px;
     height: 100%;
     border-right: solid 2px black;
 }

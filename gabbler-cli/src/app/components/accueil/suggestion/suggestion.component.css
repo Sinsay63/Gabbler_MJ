@@ -1,3 +1,6 @@
+:host{
+    width: 25%;
+}
 .searchbox{
     display: flex;
     align-items: center;
@@ -14,6 +17,5 @@ input{
     margin: 10px 0px 10px 0px;
 }
 .column3{
-    width: 500px;
     height: 100%;
 }
